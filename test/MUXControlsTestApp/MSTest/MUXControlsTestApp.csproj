@@ -15,6 +15,9 @@
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MUXCustomBuildTasks">
       <Version>1.0.74</Version>

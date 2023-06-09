@@ -61,5 +61,6 @@
     <Page Include="CornerRadiusTestPage.xaml" />
     <Page Include="TreeViewTestPage.xaml" />
     <Page Include="BackdropMaterialTestPage.xaml" />
+    <Page Include="WebView2TestPage.xaml" />
   </ItemGroup>
 </Project>
