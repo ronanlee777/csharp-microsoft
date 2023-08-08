@@ -14,6 +14,7 @@ namespace MUXControlsTestApp
 
             navigateToBasicWebView2.Click += delegate { Frame.NavigateWithoutAnimation(typeof(WebView2BasicPage), 0); };
             navigateToCoreObjectsWebView2.Click += delegate { Frame.NavigateWithoutAnimation(typeof(WebView2CoreObjectsPage), 0); };
+            navigateToBlankPage.Click += delegate { Frame.NavigateWithoutAnimation(typeof(BlankPage), 0); };
         }
     }
 }

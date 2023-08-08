@@ -11,5 +11,6 @@
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="40">
         <Button x:Name="navigateToBasicWebView2" AutomationProperties.Name="navigateToBasicWebView2" Margin="2" HorizontalAlignment="Stretch">WebView2 Basic Tests</Button>
         <Button x:Name="navigateToCoreObjectsWebView2" AutomationProperties.Name="navigateToCoreObjectsWebView2" Margin="2" HorizontalAlignment="Stretch">WebView2 Core Objects Tests</Button>
+        <Button x:Name="navigateToBlankPage" AutomationProperties.Name="navigateToBlankPage" Margin="2" HorizontalAlignment="Stretch">Blank Page</Button>
     </StackPanel>
 </local:TestPage>
